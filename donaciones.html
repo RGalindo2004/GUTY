@@ -38,27 +38,28 @@
     </header>
     
     <main id="contenido">
-        <section id="donaciones">
+        <section class="formulario">
             <h2>Página de Donaciones</h2>
-            <p>Juntos estamos unidos para combatir el cancer de los niños hpndureños, Seamos una familia que ayude a un pequeño, un granito de arena siembras una gran esperanza</p>
+            <p>Juntos estamos unidos para combatir el cancer de los niños hondureños.</p>
+            <p>Seamos una familia que ayude a un pequeño, un granito de arena siembras una gran esperanza</p>
             <div id="imagenes-fondo">
                 <img src="img/Donacione00.png" alt="Imagen 1">
             </div>
-            <form id="formulario" action="pagar.php" method="post">
-                <div class="campo">
+            <form id="formulario" method="post">
+                <div class="field">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
                 </div>
-                <div class="campo">
+                <div class="field">
                     <label for="correo">Correo electrónico:</label>
                     <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
                 </div>
-                <div class="campo">
+                <div class="field">
                     <label for="monto">Monto:</label>
                     <input type="number" id="monto" name="monto"
                         placeholder="Escribe el monto que deseas donar en lempiras" min="1" required>
                 </div>
-                <div class="campo">
+                <div class="field">
                     <label for="metodo">Método de pago:</label>
                     <select id="metodo" name="metodo" required>
                         <option value="">Selecciona un método de pago</option>
@@ -67,7 +68,7 @@
                         <option value="transferencia">Transferencia bancaria</option>
                     </select>
                 </div>
-                <div class="campo">
+                <div class="actions">
                     <button type="submit" id="donar" name="donar">Donar</button>
                 </div>
             </form>
