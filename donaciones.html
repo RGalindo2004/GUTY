@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -9,58 +9,55 @@
     <link rel="stylesheet" href="css/carrusel.css" />
     <script src="js/script.js"></script>
     <script src="js/carrusel.js"></script>
-  </head>
+</head>
   
 
 <body>
-    <!-- Crear un contenedor principal para el sitio web -->
-    <header id="encabezado">
-        <nav id="navegacion">
-            <section id="chuchi">
-
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
-                    <li><a href="programas.html">Nuestros Programas</a></li>
-                    <li><a href="ayudar.html">Cómo Ayudar</a></li>
-                    <li><a href="galeria.html">Galería de Fotos</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="Contáctenos.html">Contáctenos</a></li>
-                    <li><a href="donaciones.html">Página de Donaciones</a></li>
-                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
-                </ul>
-            </section>
-        </nav>
+    <header>
+      <div class="info">
+        <img src="https://contenido.unicah.edu/publico/unicahReg/logoUnicahV3.png" alt="Logo">
+        <div class="texto">
+          <h1>Bodega</h1>
+          <h2>Guty</h2>
+        </div>
+  
+      </div>
+      <nav class="bar">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acerca.html">Acerca de Nosotros</a></li>
+          <li><a href="programas.html">Nuestros Programas</a></li>
+          <li><a href="ayudar.html">Ayudar</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="contacto.html">Contáctenos</a></li>
+          <li><a href="donaciones.html">Donaciones</a></li>
+          <li><a href="faq.html">Preguntas Frecuentes</a></li>
+        </ul>
+      </nav>
     </header>
-    <!-- Crear un contenido principal para el sitio web -->
+    
     <main id="contenido">
-        <!-- Crear una sección para la página de donaciones -->
         <section id="donaciones">
             <h2>Página de Donaciones</h2>
             <p>Juntos estamos unidos para combatir el cancer de los niños hpndureños, Seamos una familia que ayude a un pequeño, un granito de arena siembras una gran esperanza</p>
             <div id="imagenes-fondo">
                 <img src="img/Donacione00.png" alt="Imagen 1">
             </div>
-            <!-- Crear un formulario de donación -->
             <form id="formulario" action="pagar.php" method="post">
-                <!-- Crear un campo para el nombre -->
                 <div class="campo">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
                 </div>
-                <!-- Crear un campo para el correo electrónico -->
                 <div class="campo">
                     <label for="correo">Correo electrónico:</label>
                     <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
                 </div>
-                <!-- Crear un campo para el monto -->
                 <div class="campo">
                     <label for="monto">Monto:</label>
                     <input type="number" id="monto" name="monto"
                         placeholder="Escribe el monto que deseas donar en lempiras" min="1" required>
                 </div>
-                <!-- Crear un campo para el método de pago -->
                 <div class="campo">
                     <label for="metodo">Método de pago:</label>
                     <select id="metodo" name="metodo" required>
@@ -70,35 +67,22 @@
                         <option value="transferencia">Transferencia bancaria</option>
                     </select>
                 </div>
-                <!-- Crear un botón para enviar el formulario -->
                 <div class="campo">
                     <button type="submit" id="donar" name="donar">Donar</button>
                 </div>
             </form>
         </section>
     </main>
-    <!-- Crear un pie de página para el sitio web -->
     <footer>
-        <div class="arriba">
-            <div class="derecha">
-                <img src="img/logo_fundacion.png" width="100" alt="logo">
-            </div>
-            <div class="derechos">
-                <p> @2023 Huellas al Rescate. Todos los derechos reservados</p>
-            </div>
-            <div class="izquierda">
-                <h2>
-                    Siguenos
-                </h2>
+        <div class="footer">
+            <p>Derechos Reservados 2010-2020</p>
+            <nav>
                 <ul>
-                    <li> <a href="https://www.instagram.com/?hl=es"><img src="Img/Instagram-logo.png" width="50" alt="">
-                        </a></li>
-                    <li> <a href="https://www.facebook.com/"><img src="img//8efb55e9efc12eb11bedf41caa7f33bb.png"
-                                width="50" alt=""></a></li>
-                    <li> <a href="https://www.youtube.com/"> <img src="Img/YouTube_full-color_icon_(2017).svg.png"
-                                width="50" alt=""> </a></li>
+                    <li><a href="terminos.html">Términos y condiciones</a></li>
+                    <li><a href="privacidad.html">Política de privacidad</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </footer>
 </body>
