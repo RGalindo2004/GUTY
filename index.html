@@ -11,73 +11,104 @@
     <script src="js/carrusel.js"></script>
 </head>
 
+
 <body>
+  <header>
+    <div class="info">
+      <img src="https://contenido.unicah.edu/publico/unicahReg/logoUnicahV3.png" alt="Logo">
+      <div class="texto">
+        <h1>Bodega</h1>
+        <h2>Guty</h2>
+      </div>
 
-    <body>
-        <header>
-            <h1>Nombre de tu organización</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
-                    <li><a href="programas.html">Nuestros Programas</a></li>
-                    <li><a href="ayudar.html">Ayudar</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="contacto.html">Contáctenos</a></li>
-                    <li><a href="donaciones.html">Donaciones</a></li>
-                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
-                </ul>
-            </nav>
-        </header>
+    </div>
+    <nav class="bar">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca de Nosotros</a></li>
+        <li><a href="programas.html">Nuestros Programas</a></li>
+        <li><a href="ayudar.html">Ayudar</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="contacto.html">Contáctenos</a></li>
+        <li><a href="donaciones.html">Donaciones</a></li>
+        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <main>
-            <section class="carusel">
-                <section class="caruseltrack">
-                    <div class="caruselItem">
-                        <picture>
-                            <source srcset="https://picsum.photos/id/100/1230/960" media="min-width:1025px" />
-                            <source srcset="https://picsum.photos/id/100/1024/680" media="min-width:721px" />
-                            <img src="https://picsum.photos/id/100/480/480" alt="" />
-                        </picture>
-                        <h2>Slide 1</h2>
-                    </div>
-                    <div class="caruselItem">
-                        <picture>
-                            <source data-srcset="https://picsum.photos/id/200/1230/960" media="min-width:1025px" />
-                            <source data-srcset="https://picsum.photos/id/200/1024/680" media="min-width:721px" />
-                            <img data-srcset="https://picsum.photos/id/200/480/480" alt="" />
-                        </picture>
-                        <h2>Slide 2</h2>
-                    </div>
-                    <div class="caruselItem">
-                        <picture>
-                            <source data-srcset="https://picsum.photos/id/300/1230/960" media="min-width:1025px" />
-                            <source data-srcset="https://picsum.photos/id/300/1024/680" media="min-width:721px" />
-                            <img data-srcset="https://picsum.photos/id/300/480/480" alt="" />
-                        </picture>
-                        <h2>Slide 3</h2>
-                    </div>
-                    <div class="caruselItem">
-                        <picture>
-                            <source data-srcset="https://picsum.photos/id/400/1230/960" media="min-width:1025px" />
-                            <source data-srcset="https://picsum.photos/id/400/1024/680" media="min-width:721px" />
-                            <img data-srcset="https://picsum.photos/id/400/480/480" alt="" />
-                        </picture>
-                        <h2>Slide 4</h2>
-                    </div>
-                    
-                </section>
-            </section>
-            
-        </main>
-        
-        <footer>
+
+<main>
+    <section class="carusel">
+        <section class="caruseltrack">
+            <div class="caruselItem">
+                <picture>
+                    <source srcset="https://picsum.photos/id/100/1230/960" media="min-width:1025px" />
+                    <source srcset="https://picsum.photos/id/100/1024/680" media="min-width:721px" />
+                    <img src="https://picsum.photos/id/100/480/480" alt="" />
+                </picture>
+                <h2>Slide 1</h2>
+            </div>
+            <div class="caruselItem">
+                <picture>
+                    <source data-srcset="https://picsum.photos/id/200/1230/960" media="min-width:1025px" />
+                    <source data-srcset="https://picsum.photos/id/200/1024/680" media="min-width:721px" />
+                    <img data-srcset="https://picsum.photos/id/200/480/480" alt="" />
+                </picture>
+                <h2>Slide 2</h2>
+            </div>
+            <div class="caruselItem">
+                <picture>
+                    <source data-srcset="https://picsum.photos/id/300/1230/960" media="min-width:1025px" />
+                    <source data-srcset="https://picsum.photos/id/300/1024/680" media="min-width:721px" />
+                    <img data-srcset="https://picsum.photos/id/300/480/480" alt="" />
+                </picture>
+                <h2>Slide 3</h2>
+            </div>
+            <div class="caruselItem">
+                <picture>
+                    <source data-srcset="https://picsum.photos/id/400/1230/960" media="min-width:1025px" />
+                    <source data-srcset="https://picsum.photos/id/400/1024/680" media="min-width:721px" />
+                    <img data-srcset="https://picsum.photos/id/400/480/480" alt="" />
+                </picture>
+                <h2>Slide 4</h2>
+            </div>
+
+        </section>
+    </section>
+    <section id="textoalado">
+        <div class="row reverse">
             <section>
-                <p class="foottext">Derechos Reservados 2010-2020</p>
+                <h2>Logros</h2>
+                <ul class="grandList">
+                    <li>Logro 1</li>
+                    <li>Logro 2</li>
+                    <li>Logro 3</li>
+                </ul>
             </section>
-        </footer>
-        
-    </body>
+
+            <section>
+                <img class="fotoalado" src="https://picsum.photos/id/200/640/640" alt="Foto al lado" />
+            </section>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <p>Derechos Reservados 2009-2024</p>
+        <nav>
+            <ul>
+                <li><a href="terminos.html">Términos y condiciones</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</body>
 
 </html>
