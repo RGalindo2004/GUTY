@@ -63,3 +63,40 @@ footer {
     bottom: 0;
     left: 0;
 }
+/*dise;o de preguntas */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .question {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .question:hover {
+    transform: translateY(-5px);
+  }
+  
+  .question h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .question p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
