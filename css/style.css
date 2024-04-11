@@ -64,14 +64,11 @@ header nav ul li a:hover {
   padding: 10px;
 }
 
-
 h1 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
 }
-
-
 
 .faq {
   margin-top: 20px;
@@ -120,4 +117,42 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Estilos para la sección "Cómo Ayudar" */
+#comoayudar {
+  padding: 40px;
+}
+
+#comoayudar h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#comoayudar p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+#comoayudar ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+#comoayudar ul li {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la imagen dentro de la sección "Texto al lado" */
+#textoalado .fotoalado {
+  width: 50%; /* Ancho de la imagen */
+  display: block; /* Hace que la imagen sea un bloque para poder centrarla */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
