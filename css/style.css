@@ -81,20 +81,36 @@ h1 {
   align-items: left;
   left: 0;
   right: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .contenedor h1{
-  background-color: yellow;
+  background-color: #FCFD97;
   color: red;
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-size: 1.5rem;
 }
+
+.contenedor p{
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 
 .logo2 {
   width: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   margin-right: 25px;
   margin-left: 50px;
   border-radius: 15px;
@@ -138,6 +154,9 @@ footer {
   width: 100%;
   left: 0;
   right: 0;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
 }
 
 footer a {
@@ -175,11 +194,4 @@ footer a:hover {
   color: #666;
   line-height: 1.6;
   margin-bottom: 10px;
-}
-
-#textoalado .fotoalado {
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  border-radius:
 }
