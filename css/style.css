@@ -174,13 +174,13 @@ footer a:hover {
 
 #comoayudar h2 {
   text-align: center;
-  color: #333;
+  color: black;
   margin-bottom: 20px;
 }
 
 #comoayudar p {
   font-size: 1.2rem;
-  color: #666;
+  color: white;
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -191,7 +191,51 @@ footer a:hover {
 }
 
 #comoayudar ul li {
-  color: #666;
+  color: black;
   line-height: 1.6;
   margin-bottom: 10px;
 }
+
+/* Estilos para las imágenes de "Ayudar"*/
+img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+}
+
+/* Estilos para imágenes dentro de secciones específicas */
+#textoalado img,
+#comoayudar img {
+  width: 70%; 
+  margin: 0 auto 20px; 
+}
+
+#acerca {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#acerca h2 {
+  color: #2465BD;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#acerca p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+#acerca p:last-child {
+  margin-bottom: 0;
+}
+
