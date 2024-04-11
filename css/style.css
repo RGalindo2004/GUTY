@@ -1,102 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #2465BD;
-    padding: 5px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #2465BD;
+  padding: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 140px;
-    cursor: pointer;
+header .info {
+  display: flex;
+  align-items: center;
 }
 
-header img:hover {
-    background-color: #5381c1;
-    transform: rotate(0deg) translateY(0) scale(1.2);
-    z-index: 999;
-    padding: 0.1px;
+header .info img {
+  width: 75px;
+  height: 75px;
+}
+
+header .texto {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+
+header .texto h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+header .texto h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
 }
 
 header nav ul li {
-    display: inline;
-    margin-right: 25px;
+  display: inline;
+  margin-right: 25px;
 }
 
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
 }
 
 header nav ul li a:hover {
-    background-color: #5381c1;
-    transform: rotate(0deg) translateY(0) scale(1.2);
-    z-index: 999;
-    padding: 10px;
+  background-color: #5381c1;
+  transform: rotate(0deg) translateY(0) scale(1.2);
+  z-index: 999;
+  padding: 10px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+.faq {
+  margin-top: 20px;
+}
+
+.question {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.question:hover {
+  transform: translateY(-5px);
+}
+
+.question h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.question p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
 }
 
 footer {
-    color: white;
-    background-color: #2465BD;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    padding: 5px;
-    font-size: 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+  background-color: #2465BD;
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
-/*dise;o de preguntas */
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-  }
-  
-  .faq {
-    margin-top: 20px;
-  }
-  
-  .question {
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .question:hover {
-    transform: translateY(-5px);
-  }
-  
-  .question h2 {
-    margin-top: 0;
-    color: #333;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-  }
-  
-  .question p {
-    color: #666;
-    line-height: 1.6;
-    margin: 0;
-  }
-  
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
