@@ -3,8 +3,12 @@
   padding: 0;
 }
 
+body {
+  background-color: #004bae;
+}
+
 header {
-  background-color: #2465BD;
+  background-color: #E64C2E;
   padding: 5px;
   color: white;
   display: flex;
@@ -58,7 +62,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #5381c1;
+  background-color: #FCFD97;
+  color: #E64C2E;
   transform: rotate(0deg) translateY(0) scale(1.2);
   z-index: 999;
   padding: 10px;
@@ -68,6 +73,31 @@ h1 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  left: 0;
+  right: 0;
+}
+
+.contenedor h1{
+  background-color: yellow;
+  color: red;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo2 {
+  width: 350px;
+  margin-right: 25px;
+  margin-left: 50px;
+  border-radius: 15px;
 }
 
 .faq {
@@ -101,7 +131,7 @@ h1 {
 }
 
 footer {
-  background-color: #2465BD;
+  background-color: #E64C2E;
   color: white;
   text-align: center;
   position: relative;
@@ -119,7 +149,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para la sección "Cómo Ayudar" */
 #comoayudar {
   padding: 40px;
 }
@@ -148,11 +177,9 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
-/* Estilos para la imagen dentro de la sección "Texto al lado" */
 #textoalado .fotoalado {
-  width: 50%; /* Ancho de la imagen */
-  display: block; /* Hace que la imagen sea un bloque para poder centrarla */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius:
 }
