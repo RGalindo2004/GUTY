@@ -308,3 +308,55 @@ img {
   background-color: #D44A2A;
 }
 
+/*cas */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px 0;
+}
+
+article {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+  color: #D44A2A;
+}
+
+article p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+article a {
+  color: #D44A2A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article img {
+  display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;;
+  
+}
+
+
