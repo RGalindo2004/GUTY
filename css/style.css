@@ -208,31 +208,69 @@ img {
   margin: 0 auto 20px; 
 }
 
+/*estilos para "acerca de nosotros"*/
 #acerca {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 #acerca h2 {
-  color: #2465BD;
-  font-size: 24px;
-  margin-bottom: 15px;
+  color: #E64C2E;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 #acerca p {
-  color: #333;
-  font-size: 16px;
+  color: #666;
+  font-size: 1.2rem;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #acerca p:last-child {
   margin-bottom: 0;
 }
+
+#acerca ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#acerca ul li {
+  margin-bottom: 10px;
+}
+
+#acerca ul li:before {
+  content: "\2022";
+  color: #E64C2E;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#acerca .contact-info {
+  margin-top: 30px;
+  text-align: left;
+}
+
+#acerca .contact-info p {
+  margin-bottom: 10px;
+}
+
+#acerca .contact-info p:last-child {
+  margin-bottom: 0;
+}
+
+#acerca .contact-info p strong {
+  color: #E64C2E;
+}
+/**/
 
 .formulario {
   margin: 50px auto;
