@@ -342,7 +342,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/*estilos para "acerca de nosotros"*/
 #acerca {
   max-width: 800px;
   margin: 50px auto;
@@ -404,7 +403,6 @@ footer a:hover {
 #acerca .contact-info p strong {
   color: #E64C2E;
 }
-/**/
 
 .formulario {
   margin: 50px auto;
@@ -417,7 +415,7 @@ footer a:hover {
 
 .formulario:before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -480,7 +478,6 @@ footer a:hover {
   background-color: #D44A2A;
 }
 
-/*cas */
 .main-content {
   display: flex;
   justify-content: space-around;
@@ -530,5 +527,3 @@ article img {
     margin-bottom: 10px;;
   
 }
-
-
