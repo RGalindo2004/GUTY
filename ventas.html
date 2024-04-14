@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Bodega Guty</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/calculadora.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="info">
+            <img src="/img/logo.png" alt="Logo">
+            <div class="texto">
+                <h1>Bodega</h1>
+                <h2>Guty</h2>
+            </div>
+
+        </div>
+        <nav class="bar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="programas.html">Nuestros Programas</a></li>
+                <li><a href="ayudar.html">Ayudar</a></li>
+                <li><a href="ventas.html">Productos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+                <li><a href="donaciones.html">Donaciones</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ventastitulo">
+            <h1>Ventas</h1>
+        </section>
+        <section class="ventas">
+            <section class="ventasCards">
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 1 Image" />
+                    <h3>Card 1</h3>
+                    <p>Texto de la card 1</p>
+                </div>
+    
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 2 Image" />
+                    <h3>Card 2</h3>
+                    <p>Texto de la card 2</p>
+                </div>
+    
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 3 Image" />
+                    <h3>Card 3</h3>
+                    <p>Texto de la card 3</p>
+                </div>
+            </section>
+    
+            <section class="ventasCards">
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 4 Image" />
+                    <h3>Card 4</h3>
+                    <p>Texto de la card 4</p>
+                </div>
+    
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 5 Image" />
+                    <h3>Card 5</h3>
+                    <p>Texto de la card 5</p>
+                </div>
+    
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="Card 6 Image" />
+                    <h3>Card 6</h3>
+                    <p>Texto de la card 6</p>
+                </div>
+            </section>
+
+            <section class="calculadora">
+                <h2>¿Necesitas cálculos con tus productos?</h2>
+                <p>Utiliza nuestra calculadora:</p>
+                <div class="calculadora-container">
+                    <input type="text" id="resultado" readonly />
+                    <div class="botones">
+                        <button onclick="limpiar()">C</button>
+                        <button onclick="agregarValor('7')">7</button>
+                        <button onclick="agregarValor('8')">8</button>
+                        <button onclick="agregarValor('9')">9</button>
+                        <button onclick="agregarValor('4')">4</button>
+                        <button onclick="agregarValor('5')">5</button>
+                        <button onclick="agregarValor('6')">6</button>
+                        <button onclick="agregarValor('1')">1</button>
+                        <button onclick="agregarValor('2')">2</button>
+                        <button onclick="agregarValor('3')">3</button>
+                        <button onclick="agregarValor('0')">0</button>
+                        <button onclick="agregarValor('.')">.</button>
+                        <button onclick="calcular()">=</button>
+                    </div>
+                    <div class="operadores">
+                        <button onclick="agregarValor('+')">+</button>
+                        <button onclick="agregarValor('-')">-</button>
+                        <button onclick="agregarValor('*')">x</button>
+                        <button onclick="agregarValor('/')">÷</button>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </main>    
+
+    <footer>
+        <div class="footer">
+            <p>Derechos Reservados 2004-2024</p>
+        </div>
+    </footer>
+</body>

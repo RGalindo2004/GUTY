@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donaciones - Bodega Guty</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/carrusel.css" />
-    <script src="js/script.js"></script>
-    <script src="js/carrusel.js"></script>
 </head>
 
 
@@ -28,7 +25,7 @@
                 <li><a href="acerca.html">Acerca de Nosotros</a></li>
                 <li><a href="programas.html">Nuestros Programas</a></li>
                 <li><a href="ayudar.html">Ayudar</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="ventas.html">Productos</a></li>
                 <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="contacto.html">Contáctenos</a></li>
                 <li><a href="donaciones.html">Donaciones</a></li>
@@ -38,38 +35,37 @@
     </header>
 
     <main id="contenido">
-        <section class="formulario">
-            <h2>Página de Donaciones</h2>
-            <p>Juntos estamos unidos para combatir el cancer de los niños hondureños.</p>
-            <p>Seamos una familia que ayude a un pequeño, un granito de arena siembras una gran esperanza</p>
+        <section class="donaciones">
+            <h2 class="titulo">Página de Donaciones</h2>
+            <p class="descripcion">Juntos estamos unidos para combatir el cáncer de los niños hondureños.</p>
+            <p class="descripcion">Seamos una familia que ayuda a un pequeño. Un granito de arena siembra una gran esperanza.</p>
             <div id="imagenes-fondo">
-                <img src="img/Donacione00.png" alt="Imagen 1">
+                <img src="img/Donacione00.png" alt="Imagen 1" class="imagen">
             </div>
-            <form id="formulario" method="post">
+            <form id="formulario" method="post" class="formulario">
                 <div class="field">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                    <label for="nombre" class="label">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required class="input">
                 </div>
                 <div class="field">
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
+                    <label for="correo" class="label">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required class="input">
                 </div>
                 <div class="field">
-                    <label for="monto">Monto:</label>
-                    <input type="number" id="monto" name="monto"
-                        placeholder="Escribe el monto que deseas donar en lempiras" min="1" required>
+                    <label for="monto" class="label">Monto:</label>
+                    <input type="number" id="monto" name="monto" placeholder="Escribe el monto que deseas donar en lempiras" min="1" required class="input">
                 </div>
                 <div class="field">
-                    <label for="metodo">Método de pago:</label>
-                    <select id="metodo" name="metodo" required>
-                        <option value="">Selecciona un método de pago</option>
+                    <label for="metodo" class="label">Método de pago:</label>
+                    <select id="metodo" name="metodo" required class="select">
+                        <option value="" disabled selected>Selecciona un método de pago</option>
                         <option value="tarjeta">Tarjeta de crédito o débito</option>
                         <option value="paypal">PayPal</option>
                         <option value="transferencia">Transferencia bancaria</option>
                     </select>
                 </div>
                 <div class="actions">
-                    <button type="submit" id="donar" name="donar">Donar</button>
+                    <button type="submit" id="donar" name="donar" class="boton">Donar</button>
                 </div>
             </form>
         </section>
