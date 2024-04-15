@@ -854,3 +854,60 @@ button {
 button:hover {
   background-color: #dcdcdc;
 }
+
+@media (max-width: 1087px) and (min-width: 911px) {
+  header .info img {
+      width: 120px;
+      height: 120px;
+      margin-right: 15px;
+  }
+}
+
+@media (max-width: 910px) {
+  header .info {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  header .info img {
+      width: 100px;
+      height: 100px;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  header .texto h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+
+  header .texto h2 {
+      font-size: 25px;
+      padding: 5px;
+  }
+
+  header .bar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header .bar ul li {
+      margin: 5px 0;
+  }
+
+  main .contenedor .logo2 {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+  }
+
+  main .contenedor h1 {
+      font-size: 30px;
+  }
+
+  main .contenedor p {
+      font-size: 16px;
+  }
+
+}
