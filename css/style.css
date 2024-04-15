@@ -5,11 +5,11 @@
 
 header {
   background-color: #E64C2E;
-  padding: 5px;
+  padding: 10px 20px;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 header .info {
@@ -23,46 +23,43 @@ header .info img {
 }
 
 header .texto {
-  margin-left: 10px;
-  text-align: center;
-  color: white;
+  margin-left: 15px;
 }
 
-header .texto h1 {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  color: white;
+header .texto h1, header .texto h2 {
+  margin: 0;
 }
 
-header .texto h2 {
-  margin-top: 0;
-  font-size: 1.5rem;
+header nav.bar {
+  font-size: 1rem;
 }
 
-header nav ul {
+header nav.bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
 
-header nav ul li {
-  display: inline;
-  margin-right: 25px;
+header nav.bar ul li {
+  margin-right: 15px;
 }
 
-header nav ul li a {
+header nav.bar ul li:last-child {
+  margin-right: 0;
+}
+
+header nav.bar ul li a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 8px 10px;
 }
 
-header nav ul li a:hover {
+header nav.bar ul li a:hover {
   background-color: #FCFD97;
   color: #E64C2E;
-  transform: rotate(0deg) translateY(0) scale(1.2);
-  z-index: 999;
-  padding: 10px;
 }
 
 h1 {
