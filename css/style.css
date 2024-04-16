@@ -898,45 +898,78 @@ button:hover {
   }
 
   header .info img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    height: auto;
     margin-right: 0;
     margin-bottom: 10px;
   }
 
+  header .texto {
+    text-align: center;
+  }
+
   header .texto h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 5px;
   }
 
   header .texto h2 {
-    font-size: 25px;
-    padding: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .eventostitulo {
+    font-size: 8px;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 5px;
   }
 
   header .bar ul {
     flex-direction: column;
     align-items: center;
+    padding-left: 0;
   }
 
   header .bar ul li {
     margin: 5px 0;
+    text-align: center;
   }
 
-  main .contenedor .logo2 {
-    width: 80px;
-    height: 80px;
-    margin-right: 15px;
+  .eventos article {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
-  main .contenedor h1 {
-    font-size: 30px;
+  .eventos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
 
-  main .contenedor p {
-    font-size: 16px;
+  .eventos h1 {
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
   }
 
+  .eventos h2 {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
 
+  .eventos p {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
 
+  footer .footer p {
+    font-size: 14px;
+    text-align: center;
+  }
 }
