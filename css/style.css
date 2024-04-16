@@ -972,14 +972,10 @@ button:hover {
     border-radius: 30px;
   }
 
-  .eventos h2 {
-    font-size: 8px;
-    margin-bottom: 5px;
-  }
-
+  .eventos h2,
   .eventos p {
     font-size: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   footer .footer p {
